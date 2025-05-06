@@ -1,0 +1,25 @@
+{
+  "name": "@workspace/payload",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^2.4.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "typescript": "^5.7.3"
+  },
+  "exports": {
+    "./payload/*": "./src/payload/*.ts"
+  }
+}
