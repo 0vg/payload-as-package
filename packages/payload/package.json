@@ -7,8 +7,13 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "^3.37.0",
+    "@payloadcms/payload-cloud": "^3.37.0",
+    "@payloadcms/richtext-lexical": "^3.37.0",
+    "payload": "^3.37.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sharp": "^0.34.1"
   },
   "devDependencies": {
     "@turbo/gen": "^2.4.2",

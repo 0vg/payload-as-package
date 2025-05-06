@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "cms",
   "version": "0.0.1",
   "type": "module",
   "private": true,
@@ -12,11 +12,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@payloadcms/db-postgres": "^3.37.0",
     "@payloadcms/next": "^3.37.0",
-    "@payloadcms/payload-cloud": "^3.37.0",
-    "@payloadcms/richtext-lexical": "^3.37.0",
     "@workspace/ui": "workspace:*",
+    "@workspace/payload": "workspace:*",
     "graphql": "^16.8.1",
     "lucide-react": "^0.475.0",
     "next": "^15.2.3",

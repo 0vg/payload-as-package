@@ -1,10 +1,17 @@
 {
   "extends": "@workspace/typescript-config/react-library.json",
   "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "baseUrl": ".",
     "paths": {
-      "@workspace/payload/*": ["./src/*"]
+      "@workspace/payload/*": ["./src/*"],
+      "./collections/*": ["./src/payload/collections/*"]
     }
+  },
+  "ts-node": {
+    "transpileOnly": true,
+    "swc": true
   },
   "include": ["."],
   "exclude": ["node_modules", "dist"]
